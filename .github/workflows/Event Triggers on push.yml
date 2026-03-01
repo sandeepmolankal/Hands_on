@@ -1,0 +1,12 @@
+name: triggers on push event
+ 
+on:
+    push
+
+jobs:
+    build_jobs:
+        runs-on: ubuntu-latest
+        steps:
+            - name: This will runs on push
+              run: echo "This is push event"
+            
