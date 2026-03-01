@@ -1,0 +1,10 @@
+name: Say Hello World
+
+on:
+    push
+jobs:
+    Say-Hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print magges
+              run: echo "Wlecome to github action"
